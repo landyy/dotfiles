@@ -5,7 +5,7 @@
 #screenfetch
 screenfetch -c ,4
 
-#print some pretty colored blocks. Kind looks out of place :/
+#print some pretty colored blocks. Kinda looks out of place :/
 #perl -CADS -lwe '
 #my $block = shift || (chr(0x2588) x 3);
 #for (["", 0]) {

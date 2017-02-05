@@ -1,0 +1,80 @@
+// vim:ts=4:sw=4:et
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 643,
+       "width": 818,
+       "x": 0,
+       "y": 0
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 2,
+            "floating": "user_on",
+            "geometry": {
+               "height": 1063,
+               "width": 960,
+               "x": 571,
+               "y": 263
+            },
+            "name": "OSBuddy - mrb34",
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^com\\-osbuddy\\-loader\\-Loader$",
+                "instance": "^sun\\-awt\\-X11\\-XFramePeer$",
+                "title": "^OSBuddy\\ \\-\\ mrb34$",
+                "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 1061,
+       "width": 1103,
+       "x": 818,
+       "y": 4294967295
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 2,
+            "floating": "user_on",
+            "geometry": {
+               "height": 1063,
+               "width": 1920,
+               "x": 10,
+               "y": 10
+            },
+            "name": "New Tab - Chromium",
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^Chromium$",
+               "instance": "^chromium$",
+               "title": "^New\\ Tab\\ \\-\\ Chromium$",
+               "transient_for": "^$",
+               "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
